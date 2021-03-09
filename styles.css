@@ -1,17 +1,72 @@
-body {background: #171717; font-size: 20px; font-family: 'Sriracha', cursive;}
-.postcard {background: white; width: 500px; height: 350px; margin: auto;
-    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); 
-    padding: 15px;}
-.postcard-header{overflow: hidden;}
-.postcard-header img{max-width: 60px; float: right;}
-.postcard-body{ overflow: hidden;}
-input{font-size: 18px; font-family: 'Sriracha', cursive;}
-.postcard h1{margin: 0;}
-.left-part{float: left; width: 50%;}
-.right-part{float: right;width: 50%;}
-.right-part input{display: block;}
-h1{font-size: 35px;}
-.postcard-footer{ padding: 10px; text-align: center;}
-.postcard-footer input[type=submit]{border: none; border-bottom: 1px solid gray;}
-.postcard-body input[type=text]{border: none; border-bottom: 1px solid gray; 
-    width: 240px; margin-bottom: 10px; padding: 5px;}
+  
+body {
+    background:#171717;
+    font-size: 18px;
+    font-family: "Handlee";
+}
+
+.postcard {
+    width: 600px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.postcard-header {
+    height: 95px;
+    display: flex;
+}
+
+.postcard-header div:first-child {
+    width: 80%;
+}
+
+.fglogo {
+    margin-left: auto;
+}
+
+.fglogo img {
+    width: 80px;
+}
+
+.postcard-body {
+    display: flex;
+    font-size: 20px;
+}
+
+.postcard-sms {
+    width: 60%;
+    margin: 0 20px 0 0;
+}
+.postcard-form {
+    width:40%;
+    margin-top: 10px;
+}
+.postcard-body input {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    color: lightslategray;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: "Handlee";
+    width: 90%;
+    padding: 7px;
+}
+.postcard-footer {
+    padding: 10px;
+    text-align: center;
+}
+.postcard-footer input{
+    margin: 0 auto;
+    padding: 5px 10px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: "Handlee";
+    background-color: #bebebe;
+    border: 1px solid transparent;
+    border-top-color: silver;
+    border-right-color: grey;
+    border-bottom-color: grey;
+    border-left-color: silver;
+}
